@@ -1,10 +1,15 @@
 extends Node
 
-# Variable para almacenar la disposición de los barcos del jugador
-var barcos_jugador = []
+# Variables globales
+var barcos_jugador = []  # Tablero de 10x10 (100 casillas)
 
 func _ready():
-	# Inicializa el arreglo para un tablero de 10x10 (100 casillas)
+	# Inicializar el tablero de barcos del jugador
 	barcos_jugador.resize(100)
 	for i in range(barcos_jugador.size()):
-		barcos_jugador[i] = ""  # Inicialmente, todas las casillas están vacías
+		barcos_jugador[i] = ""  # Todas las casillas vacías inicialmente
+
+func reset_game():
+	# Reinicia las variables globales para un nuevo juego
+	for i in range(barcos_jugador.size()):
+		barcos_jugador[i] = ""

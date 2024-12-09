@@ -1,6 +1,18 @@
-[gd_scene load_steps=2 format=3 uid="uid://bcox0uwnku52k"]
+[gd_scene load_steps=3 format=3 uid="uid://bcox0uwnku52k"]
 
 [ext_resource type="Script" path="res://GameScreen.gd" id="1_j0xqo"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_cc5e6"]
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+border_color = Color(0, 0, 0, 1)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+corner_detail = 10
 
 [node name="GameScreen" type="Control"]
 layout_mode = 3
@@ -19,411 +31,612 @@ anchors_preset = -1
 anchor_top = 0.012
 anchor_right = 0.547
 anchor_bottom = 0.988
-offset_top = -0.312
-offset_right = 4.21497
-offset_bottom = 0.311951
+offset_left = 7.0
+offset_top = -1.31203
+offset_right = 11.215
+offset_bottom = -0.687988
 grow_vertical = 2
 columns = 10
 
 [node name="Button1" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button2" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button3" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button4" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button5" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button6" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button7" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button8" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button9" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button10" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button11" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button12" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button13" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button14" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button15" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button16" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button17" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button18" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button19" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button20" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button21" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button22" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button23" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button24" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button25" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button26" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button27" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button28" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button29" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button30" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button31" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button32" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button33" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button34" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button35" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button36" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button37" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button38" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button39" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button40" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button41" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button42" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button43" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button44" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button45" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button46" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button47" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button48" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button49" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button50" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button51" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button52" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button53" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button54" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button55" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button56" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button57" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button58" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button59" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button60" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button61" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button62" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button63" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button64" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button65" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button66" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button67" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button68" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button69" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button70" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button71" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button72" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button73" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button74" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button75" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button76" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button77" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button78" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button79" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button80" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button81" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button82" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button83" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button84" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button85" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button86" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button87" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button88" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button89" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button90" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button91" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button92" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button93" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button94" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button95" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button96" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button97" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button98" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button99" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="Button100" type="Button" parent="GridContainerIA"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
+icon_alignment = 1
 
 [node name="GridContainer" type="GridContainer" parent="."]
 layout_mode = 1
@@ -432,9 +645,9 @@ anchor_left = 0.628
 anchor_top = 0.43
 anchor_right = 0.927
 anchor_bottom = 0.975
-offset_left = -0.340027
+offset_left = 2.65997
 offset_top = 13.07
-offset_right = 0.314941
+offset_right = 3.31494
 offset_bottom = 0.274963
 grow_horizontal = 0
 grow_vertical = 0
@@ -848,11 +1061,11 @@ anchor_top = 0.074
 anchor_right = 0.776
 anchor_bottom = 0.098
 offset_left = -0.549988
-offset_top = -8.174
+offset_top = 22.826
 offset_right = -0.280029
-offset_bottom = -0.798004
+offset_bottom = 30.202
 theme_override_colors/font_color = Color(0, 1, 0, 1)
-text = "Turno del jugador"
+text = "Capturas del jugador"
 horizontal_alignment = 1
 vertical_alignment = 1
 
@@ -864,11 +1077,11 @@ anchor_top = 0.074
 anchor_right = 0.942
 anchor_bottom = 0.098
 offset_left = -0.280029
-offset_top = -8.174
+offset_top = 22.826
 offset_right = -0.0100098
-offset_bottom = -0.798004
+offset_bottom = 30.202
 theme_override_colors/font_color = Color(1, 0, 0, 1)
-text = "Turno de la IA"
+text = "Capturas de la IA"
 horizontal_alignment = 1
 vertical_alignment = 1
 
@@ -880,9 +1093,282 @@ anchor_top = 0.135
 anchor_right = 0.942
 anchor_bottom = 0.171
 offset_left = -0.549988
-offset_top = 0.114998
+offset_top = -50.885
 offset_right = -0.0100098
-offset_bottom = -0.320999
-theme_override_colors/font_color = Color(1, 1, 1, 1)
+offset_bottom = -51.321
+theme_override_colors/font_color = Color(1, 1, 0, 1)
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Portaaviones" type="Label" parent="."]
+visible = false
+layout_mode = 0
+offset_left = 749.0
+offset_top = 103.0
+offset_right = 851.0
+offset_bottom = 126.0
+size_flags_horizontal = 4
+size_flags_stretch_ratio = 0.0
+text = "Portaaviones"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Acorazado" type="Label" parent="."]
+visible = false
+layout_mode = 0
+offset_left = 760.0
+offset_top = 132.0
+offset_right = 842.0
+offset_bottom = 155.0
+size_flags_horizontal = 4
+text = "Acorazado"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Crucero" type="Label" parent="."]
+visible = false
+layout_mode = 0
+offset_left = 769.0
+offset_top = 162.0
+offset_right = 831.0
+offset_bottom = 185.0
+size_flags_horizontal = 4
+text = "Crucero"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Destructor1" type="Label" parent="."]
+visible = false
+layout_mode = 0
+offset_left = 752.0
+offset_top = 191.0
+offset_right = 849.0
+offset_bottom = 214.0
+size_flags_horizontal = 4
+text = "Destructor 1"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Destructor2" type="Label" parent="."]
+visible = false
+layout_mode = 0
+offset_left = 752.0
+offset_top = 220.0
+offset_right = 849.0
+offset_bottom = 243.0
+size_flags_horizontal = 4
+text = "Destructor 2"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Submarino1" type="Label" parent="."]
+visible = false
+layout_mode = 0
+offset_left = 753.0
+offset_top = 249.0
+offset_right = 796.0
+offset_bottom = 272.0
+size_flags_horizontal = 4
+text = "Sub 1"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Submarino2" type="Label" parent="."]
+visible = false
+layout_mode = 0
+offset_left = 804.0
+offset_top = 249.0
+offset_right = 847.0
+offset_bottom = 272.0
+size_flags_horizontal = 4
+text = "Sub 2"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="PortaavionesIA" type="Label" parent="."]
+visible = false
+layout_mode = 0
+offset_left = 941.0
+offset_top = 103.0
+offset_right = 1043.0
+offset_bottom = 126.0
+size_flags_horizontal = 4
+size_flags_stretch_ratio = 0.0
+text = "Portaaviones"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AcorazadoIA" type="Label" parent="."]
+visible = false
+layout_mode = 0
+offset_left = 951.0
+offset_top = 132.0
+offset_right = 1033.0
+offset_bottom = 155.0
+size_flags_horizontal = 4
+text = "Acorazado"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CruceroIA" type="Label" parent="."]
+visible = false
+layout_mode = 0
+offset_left = 961.0
+offset_top = 162.0
+offset_right = 1023.0
+offset_bottom = 185.0
+size_flags_horizontal = 4
+text = "Crucero"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="DestructorIA1" type="Label" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.823
+anchor_top = 0.299
+anchor_right = 0.9
+anchor_bottom = 0.329
+offset_left = -5.565
+offset_top = -3.64902
+offset_right = 2.5
+offset_bottom = -0.179016
+size_flags_horizontal = 4
+text = "Destructor 1"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="DestructorIA2" type="Label" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.815
+anchor_top = 0.338
+anchor_right = 0.9
+anchor_bottom = 0.369
+offset_left = 2.67493
+offset_top = -0.0380249
+offset_right = 1.5
+offset_bottom = 2.78099
+size_flags_horizontal = 4
+text = "Destructor 2"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="SubmarinoIA1" type="Label" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.815
+anchor_top = 0.393
+anchor_right = 0.855
+anchor_bottom = 0.418
+offset_left = 3.67493
+offset_top = -6.843
+offset_right = 0.474976
+offset_bottom = -0.118011
+size_flags_horizontal = 4
+text = "Sub 1"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="SubmarinoIA2" type="Label" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.862
+anchor_top = 0.393
+anchor_right = 0.895
+anchor_bottom = 0.418
+offset_left = 0.389954
+offset_top = -6.843
+offset_right = 5.2749
+offset_bottom = -0.118011
+size_flags_horizontal = 4
+text = "Sub 2"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="FinPanel" type="Panel" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.07
+anchor_top = 0.062
+anchor_right = 0.946
+anchor_bottom = 0.938
+offset_left = -0.849998
+offset_top = -0.362
+offset_right = -1.63
+offset_bottom = 1.362
+theme_override_styles/panel = SubResource("StyleBoxFlat_cc5e6")
+
+[node name="LabelVictoria" type="RichTextLabel" parent="FinPanel"]
+visible = false
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.044
+anchor_top = 0.074
+anchor_right = 0.968
+anchor_bottom = 0.789
+offset_left = -0.484001
+offset_top = 21.672
+offset_right = 0.35199
+offset_bottom = -6.30798
+bbcode_enabled = true
+text = "[center][b][color=yellow]¡Felicidades, Comandante![/color][/b][/center]
+
+Has demostrado tus habilidades estratégicas y liderado a tu flota hacia una gloriosa [i][color=lime]victoria[/color][/i]. 
+El océano ya canta canciones de tus hazañas y tus enemigos nunca olvidarán tu nombre.
+
+[center][b]Gracias por jugar a nuestro juego[/b][/center]
+
+Esperamos que hayas disfrutado enfrentándote a los desafíos y tomando el control del campo de batalla. 
+Tu apoyo significa el mundo para nosotros, y no podemos esperar para verte de nuevo surcando los mares de la estrategia.
+
+[b][color=aqua]¿Listo para otro desafío?[/color][/b]
+
+[center][b]¡Hasta pronto, Capitán![/b][/center]
+"
+
+[node name="LabelDerrota" type="RichTextLabel" parent="FinPanel"]
+visible = false
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.044
+anchor_top = 0.074
+anchor_right = 0.968
+anchor_bottom = 0.789
+offset_left = -0.484001
+offset_top = 20.672
+offset_right = 0.35199
+offset_bottom = -6.30798
+bbcode_enabled = true
+text = "[center][b][color=yellow]¡Derrota en el campo de batalla![/color][/b][/center]
+
+Aunque esta vez no fue tu victoria, tu valentía y esfuerzo son dignos de admiración. 
+Incluso los mejores capitanes enfrentan [color=red] derrotas[/color]  en su camino hacia la gloria.
+
+[center][b]Gracias por jugar a nuestro juego[/b][/center]
+
+Las aguas pueden haber sido turbulentas hoy, pero sabemos que volverás más fuerte y listo para enfrentarte a nuevos desafíos.
+
+[b][color=orange]¡No te rindas![/color][/b]
+Cada derrota es una oportunidad para aprender, mejorar y alcanzar nuevos horizontes.
+
+[center][b]¡Hasta la próxima batalla, Capitán![/b][/center]"
+
+[node name="CerrarButton" type="Button" parent="FinPanel"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 0.738
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 275.0
+offset_top = 50.078
+offset_right = -284.0
+offset_bottom = -45.0
+text = "Cerrar juego"
+
+[connection signal="pressed" from="FinPanel/CerrarButton" to="." method="_on_CerrarButton_pressed"]
