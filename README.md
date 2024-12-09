@@ -16,7 +16,7 @@ Opción 2: Clonar el repositorio (si tienes Git instalado):
 
 bash
 Copiar código
-git clone <URL_DEL_REPOSITORIO>
+git clone <[URL_DEL_REPOSITORIO](https://github.com/Rubenro01/hundir-la-flota)>
 cd HundirLaFlota
 Paso 2: Abrir el proyecto en Godot
 Abre Godot Engine 4.
