@@ -81,4 +81,3 @@ Diseño y desarrollo: [Tu Nombre o Equipo]
 Motor del juego: Godot Engine 4
 Licencia
 Este proyecto está licenciado bajo MIT License.
-
