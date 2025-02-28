@@ -77,7 +77,7 @@ Copiar código
 ├── project.godot        # Archivo del proyecto
 └── README.md            # Este archivo
 Créditos
-Diseño y desarrollo: [Tu Nombre o Equipo]
+Diseño y desarrollo: Rubén Rodríguez
 Motor del juego: Godot Engine 4
 Licencia
 Este proyecto está licenciado bajo MIT License.
