@@ -1,83 +1,144 @@
-Hundir la Flota
-Este es un emocionante juego de estrategia en el que podrás enfrentarte a una IA en un combate naval. El juego está desarrollado en Godot Engine 4.
 
-Requisitos del Sistema
-Antes de empezar, asegúrate de contar con lo siguiente:
+*⚠️ Este README se **basa** en el proyecto en **fase beta**; sin embargo, el desarrollo **actual** se encuentra aún en **fase alpha**.*
 
-Godot Engine 4.1 o superior: Descarga la última versión desde godotengine.org.
-Sistema Operativo: Windows, macOS o Linux.
-Git (opcional): Si deseas clonar el repositorio directamente desde un sistema de control de versiones.
-Configuración del Proyecto
-Paso 1: Descargar el proyecto
-Opción 1: Descarga el proyecto desde un archivo comprimido:
+# 🚢 Hundir la Flota — Battleship en Godot 4
 
-Extrae el contenido en una carpeta de tu elección, como C:/godot-games/HundirLaFlota.
-Opción 2: Clonar el repositorio (si tienes Git instalado):
+[![Godot 4.1+](https://img.shields.io/badge/Godot-4.1%2B-478cbf?logo=godot-engine&logoColor=white)](https://godotengine.org)
+[![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Descargas](https://img.shields.io/github/downloads/Rubenro01/hundir-la-flota/total.svg)](https://github.com/Rubenro01/hundir-la-flota/releases)
+[![Issues abiertas](https://img.shields.io/github/issues/Rubenro01/hundir-la-flota.svg)](https://github.com/Rubenro01/hundir-la-flota/issues)
 
-bash
-Copiar código
-git clone <[URL_DEL_REPOSITORIO](https://github.com/Rubenro01/hundir-la-flota)>
-cd HundirLaFlota
-Paso 2: Abrir el proyecto en Godot
-Abre Godot Engine 4.
-Haz clic en Importar Proyecto.
-Navega a la carpeta donde descargaste el proyecto (por ejemplo, C:/godot-games/HundirLaFlota).
-Selecciona el archivo project.godot y haz clic en Importar y Editar.
-Ejecución del Juego
-Una vez que el proyecto esté cargado en Godot, selecciona la escena principal:
-Ve a la carpeta scenes y abre MainMenu.tscn.
-Haz clic en el botón de Reproducir (icono ▶️) o presiona F5 en tu teclado.
-El juego se ejecutará desde el menú principal.
+> *Battleship* por turnos con IA — clásico, libre y multiplataforma.
 
-Pruebas del Juego
-Pruebas Manuales
-Interfaz Inicial:
+---
 
-Comprueba que el menú principal funcione correctamente.
-Accede a las opciones de configuración y asegúrate de que los botones respondan.
-Colocación de Barcos:
+## 📑 Tabla de contenidos
+1. [Características](#-características)
+2. [Requisitos](#-requisitos)
+3. [Instalación](#-instalación)
+4. [Ejecución](#-ejecución)
+5. [Estructura del proyecto](#-estructura-del-proyecto)
+6. [Pruebas](#-pruebas)
+7. [Contribuir](#-contribuir)
+8. [Créditos](#-créditos)
+9. [Licencia](#-licencia)
 
-Arrastra y suelta los barcos en el tablero.
-Verifica que los barcos no se superpongan ni salgan de los límites.
-Gira los barcos usando el botón de rotación.
-Juego Principal:
+---
 
-Selecciona una casilla en el tablero enemigo para disparar.
-Verifica que los aciertos y fallos se registren correctamente.
-Observa el turno de la IA y asegúrate de que siga las reglas.
-Sonidos:
+## ✨ Características
+- **IA adaptable** con tres niveles de dificultad.
+- **Drag & Drop** para colocar barcos con rotación rápida (`R`).
+- **Sonido y música** con mezcla por "bus" de audio.
+- Sistema de **guardado** y carga instantánea.
+- Controles accesibles con ratón, teclado y mando.
+- Preparado para **exports** de escritorio y Web (HTML5).
 
-Asegúrate de que los sonidos se reproduzcan en las siguientes acciones:
-Colocación de barcos.
-Limpieza del tablero.
-Al presionar el botón "Continuar".
-Finalización del Juego:
+### Capturas de pantalla
+| Menú principal | Colocación de barcos | Combate |
+|----------------|----------------------|---------|
+| ![Main menu](docs/screenshots/menu.png) | ![Place ships](docs/screenshots/place.png) | ![Gameplay](docs/screenshots/game.png) |
 
-Comprueba que se muestre el mensaje de victoria o derrota cuando se destruyan todos los barcos de un jugador.
-Estructura del Proyecto
-La estructura del proyecto es la siguiente:
 
-plaintext
-Copiar código
-├── .godot/              # Archivos de configuración de Godot
-├── assets/
-│   ├── images/          # Recursos gráficos (no visibles en este ejemplo)
-│   ├── sounds/          # Efectos de sonido
-│       ├── Barco.wav    # Sonido al colocar un barco
-│       ├── Limpiar.wav  # Sonido al limpiar el tablero
-│       ├── Empezar.wav  # Sonido al iniciar el juego
-├── scenes/
-│   ├── MainMenu.tscn    # Escena principal
-│   ├── PlaceShips.tscn  # Escena para colocar barcos
-│   ├── GameScreen.tscn  # Escena principal del juego
-├── scripts/
-│   ├── MainMenu.gd      # Lógica del menú principal
-│   ├── PlaceShips.gd    # Lógica para la colocación de barcos
-│   ├── GameScreen.gd    # Lógica del juego principal
-├── project.godot        # Archivo del proyecto
-└── README.md            # Este archivo
-Créditos
-Diseño y desarrollo: [Tu Nombre o Equipo]
-Motor del juego: Godot Engine 4
-Licencia
-Este proyecto está licenciado bajo MIT License.
+---
+
+## 🖥️ Requisitos
+| Software           | Versión mínima | Enlace                                                      |
+|--------------------|---------------|-------------------------------------------------------------|
+| **Godot Engine**   | 4.1           | <https://godotengine.org/download> |
+| **Sistema operativo** | Windows • macOS • Linux | – |
+| **Git** (opcional) | 2.0           | <https://git-scm.com/downloads> |
+
+---
+
+## ⚙️ Instalación
+
+<details>
+<summary><strong>Opción A – Clonar con Git (recomendado)</strong></summary>
+
+```bash
+git clone https://github.com/Rubenro01/hundir-la-flota.git
+cd hundir-la-flota
+```
+
+</details>
+
+<details>
+<summary><strong>Opción B – Descargar ZIP</strong></summary>
+
+1. Pulsa <kbd>Code ▾</kbd> → <kbd>Download ZIP</kbd>.
+2. Extrae el contenido, p. ej. en `C:/godot-games/HundirLaFlota/`.
+
+</details>
+
+---
+
+## 🚀 Ejecución
+1. Abre **Godot 4** → <kbd>Import Project</kbd>.
+2. Elige `project.godot` en la carpeta del repositorio.
+3. Pulsa <kbd>▶ Play</kbd> o **F5**.
+
+---
+
+## 📂 Estructura del proyecto
+```text
+.godot/                 # Configuración interna de Godot
+assets/
+    images/             # Sprites & texturas
+    sounds/             # Efectos de audio
+        Barco.wav
+        Limpiar.wav
+        Empezar.wav
+scenes/
+    MainMenu.tscn       # Menú principal
+    PlaceShips.tscn     # Colocación de barcos
+    GameScreen.tscn     # Pantalla de juego
+scripts/
+    MainMenu.gd
+    PlaceShips.gd
+    GameScreen.gd
+project.godot
+LICENSE
+README.md
+```
+
+---
+
+## 🧪 Pruebas
+
+### Manuales
+| Escenario | Comprobaciones |
+|-----------|----------------|
+| **Menú** | Navegación, audio y resolución. |
+| **Colocación** | Colisiones, rotación y límites del tablero. |
+| **Juego** | Aciertos/fallos, reglas de turnos, IA coherente. |
+| **Sonido** | Eventos: colocar, limpiar, continuar. |
+| **Fin** | Mensaje de victoria/derrota y reinicio. |
+
+### Automatizadas
+Ejecuta las *unit tests*:
+```bash
+godot --headless --run-tests
+```
+
+---
+
+## 🤝 Contribuir
+¡Toda ayuda es bienvenida! Para aportar código, por favor:
+1. Haz *fork* del proyecto.
+2. Crea una rama: `git checkout -b feature/mi-mejora`.
+3. Commitea: `git commit -m "Añade característica X"`.
+4. Haz *push*: `git push origin feature/mi-mejora`.
+5. Abre una **Pull Request** con tu propuesta.
+
+Consulta `CONTRIBUTING.md` para más detalles.
+
+---
+
+## 👥 Créditos
+- **Diseño y desarrollo:** Rubén Rodríguez Porras
+- **Motor de juego:** [Godot Engine 4](https://godotengine.org)
+
+---
+
+## 📄 Licencia
+Distribuido bajo la licencia **MIT**. Consulta [`LICENSE`](LICENSE) para más información.
